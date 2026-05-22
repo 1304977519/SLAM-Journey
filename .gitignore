@@ -1,0 +1,72 @@
+# ==========================================
+# SLAM & PyTorch & C++ Gitignore Templates
+# ==========================================
+
+# --- Private Plans & Sensitive Files ---
+# Exclude the private 333.md study plan to prevent any privacy leaks on public GitHub
+333.md
+
+# --- Large Book & Reference Files ---
+# Ignore the local textbook PDFs in the workspace to prevent bloated repository size
+*.pdf
+
+# --- SLAM & GNSS Data Files ---
+# Raw point cloud data, ROS bags, trajectories, and log files
+*.bag
+*.pcd
+*.ply
+*.bin
+*.csv
+*.txt
+
+# Allow README.md explicitly
+!README.md
+
+# --- Deep Learning (PyTorch / ONNX) Weights ---
+# Saved model checkpoints and weights
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.pb
+
+# --- Python Virtual Environment & Cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+
+# --- C++ / ROS / CMake Build Artifacts ---
+# Common build output directories
+build/
+devel/
+install/
+.catkin_workspace
+*.cmake
+Makefile
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+*.a
+*.o
+*.so
+*.lib
+*.dll
+*.exe
+*.out
+
+# --- IDEs & Editors Configurations ---
+.vscode/
+.idea/
+.clion.source.dir/
+*.swp
+*.swo
+*~
+.DS_Store
