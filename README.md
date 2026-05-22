@@ -1,13 +1,19 @@
-# SLAM-Journey-from-Zero 🛰️🤖
+# SLAM-Journey 🛰️🤖
 
-> **SLAM 自学与科研记录**
+> **SLAM 学习与科研记录**
 
 ---
 
 ## 📅 每周学习记录
 
 ### 🔹 Week 1
-*（在此记录你的 Week 1 学习进展、手推公式及代码产出...）*
+*   **数学基础与手推公式**：
+    *   📝 完整手推了**罗德里格斯旋转公式**并完成备份：[罗德里格斯公式.jpg](Week1/Day1/罗德里格斯公式.jpg)
+    *   📝 完整手推了**四元数到旋转矩阵**的转换过程：[四元数到旋转矩阵.jpg](Week1/Day1/四元数到旋转矩阵.jpg)
+*   **FAST-LIO2 代码精读与框架分析**：
+    *   📂 梳理并建立了 FAST-LIO2 核心文件目录结构说明：[fast_lio目录说明.md](Week1/Day1/fast_lio目录说明.md)
+    *   🎨 绘制并整理了 FAST-LIO2 的主流程数据流向图：[fast_lio流程图.png](Week1/Day1/fast_lio流程图.png)
+
 
 ### 🔹 Week 2
 *（在此记录你的 Week 2 学习进展...）*
