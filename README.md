@@ -25,7 +25,22 @@
     *   📂 剖析并梳理了视野外局部地图点删除逻辑：[lasermap_fov_segment.cpp](Week1/Day2/lasermap_fov_segment.cpp)
     *   📂 深入理解并剖析了 iKD-Tree 增量插入与更新部分：[map_incremental.cpp](Week1/Day2/map_incremental.cpp)
 
+#### 🗓️ Day 3
+*   **C++ SLAM 基础与李群代数实践 (`useEigen/` 目录)**：
+    *   📂 矩阵运算与几何变换练习：[useMatrix.cpp](Week1/Day3/useEigen/useMatrix.cpp), [useGeometry.cpp](Week1/Day3/useEigen/useGeometry.cpp), [coordinateTransform.cpp](Week1/Day3/useEigen/coordinateTransform.cpp)
+    *   📂 轨迹绘制与误差计算：[plotTrajectory.cpp](Week1/Day3/useEigen/plotTrajectory.cpp), [trajectoryError.cpp](Week1/Day3/useEigen/trajectoryError.cpp)
+    *   📂 李群李代数 Sophus 库实践：[useSophus.cpp](Week1/Day3/useEigen/useSophus.cpp)
+    *   📂 三维位姿可视化实践：[visualizeGeometry.cpp](Week1/Day3/useEigen/visualizeGeometry.cpp)
+    *   💻 编译运行结果截图：[Eigen和Sophus代码.png](Week1/Day3/Eigen和Sophus代码.png)
+*   **FAST-LIO2 代码精读与状态估计**：
+    *   📂 逐行精读点云特征预处理回调函数：[standard_pcl_cbk.cpp](Week1/Day3/standard_pcl_cbk.cpp)
+    *   📂 精读并注释了 IMU-LiDAR 时间戳同步与数据包对齐逻辑：[sync_packages.cpp](Week1/Day3/sync_packages.cpp)
+    *   📝 整理并绘制了状态估计中各种帧与坐标系含义图：[帧的含义.jpeg](Week1/Day3/帧的含义.jpeg)
+    *   🎨 详细手绘了 IMU-LiDAR 从数据输入到进入队列的完整流程图：[数据流图.jpeg](Week1/Day3/数据流图（IMULiDAR进来到队列的完整流程）.jpeg)
 
+#### 🗓️ Day 4
+*   **数学基础与手推公式**：
+    *   📝 完整手写推导了非线性优化中的**高斯牛顿法（Gauss-Newton）正规方程**：[高斯牛顿法正规方程.jpg](Week1/Day4/高斯牛顿法正规方程.jpg)
 
 ### 🔹 Week 2
 *（在此记录你的 Week 2 学习进展...）*
