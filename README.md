@@ -50,6 +50,15 @@
     *   📝 手绘 ESEKF 误差状态转移与测量线性化流向图：[update_iterated_dyn_share_modified_annotated.jpeg](Week1/Day4/update_iterated_dyn_share_modified_annotated.jpeg)
     *   🎨 迭代增益 $K$ 计算与 For 循环中断收敛条件分析：[IEKF 迭代 for 循环.png](Week1/Day4/IEKF%20迭代%20for%20循环.png)
 
+#### 🗓️ Day 5
+*   **数学基础**：
+    *   📝 手写推导了**卡尔曼滤波（KF）5个核心公式**：[KF.jpg](Week1/Day5/KF.jpg)
+*   **非线性优化实践**：
+    *   📂 重写并完善了 g2o 图优化曲线拟合代码（含详细注释）：[g2oCurveFitting.cpp](Week1/Day5/useg2o/g2oCurveFitting.cpp)
+    *   💻 Ceres 与 g2o 两种优化框架的对比总结：[对比 Ceres 和 g2o.png](Week1/Day5/对比%20Ceres%20和%20g2o.png)
+*   **FAST-LIO2 IEKF 代码精读**：
+    *   📂 IEKF 迭代更新函数完整版逐行注释：[update_iterated_dyn_share_modified.cpp](Week1/Day5/update_iterated_dyn_share_modified.cpp)
+    *   🎨 手绘 FAST-LIO2 从 LiDAR 数据输入到位姿输出的完整主线流程图：[主线.jpeg](Week1/Day5/主线.jpeg)
 
 ### 🔹 Week 2
 *（在此记录你的 Week 2 学习进展...）*
