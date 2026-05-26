@@ -39,8 +39,17 @@
     *   🎨 详细手绘了 IMU-LiDAR 从数据输入到进入队列的完整流程图：[数据流图.jpeg](Week1/Day3/数据流图（IMULiDAR进来到队列的完整流程）.jpeg)
 
 #### 🗓️ Day 4
-*   **数学基础与手推公式**：
+*   **数学基础与非线性优化实践**：
     *   📝 完整手写推导了非线性优化中的**高斯牛顿法（Gauss-Newton）正规方程**：[高斯牛顿法正规方程.jpg](Week1/Day4/高斯牛顿法正规方程.jpg)
+    *   📂 Ceres 优化库曲线拟合实践与自动求导：[Ceres_AutoDiff.cpp](Week1/Day4/useCeres/Ceres_AutoDiff.cpp), [ceresCurveFitting.cpp](Week1/Day4/useCeres/ceresCurveFitting.cpp)
+    *   📂 g2o 图优化库曲线拟合实践与顶点/边设计：[g2oCurveFitting.cpp](Week1/Day4/useg2o/g2oCurveFitting.cpp)
+    *   💻 优化求解输出及曲线拟合可视化结果：[ch6_test1.jpg](Week1/Day4/ch6_test1.jpg), [ch6_test2.png](Week1/Day4/ch6_test2.png), [ch6_test3.png](Week1/Day4/ch6_test3.png)
+*   **FAST-LIO2 ESEKF / IEKF（迭代卡尔曼滤波）核心逻辑精读**：
+    *   📂 FAST-LIO2 核心迭代卡尔曼滤波框架文件：[esekfom.hpp](Week1/Day4/esekfom.hpp)
+    *   📂 IEKF 核心状态迭代更新函数（逐行剖析与注释）：[update_iterated_dyn_share_modified_annotated.cpp](Week1/Day4/update_iterated_dyn_share_modified_annotated.cpp)
+    *   📝 手绘 ESEKF 误差状态转移与测量线性化流向图：[update_iterated_dyn_share_modified_annotated.jpeg](Week1/Day4/update_iterated_dyn_share_modified_annotated.jpeg)
+    *   🎨 迭代增益 $K$ 计算与 For 循环中断收敛条件分析：[IEKF 迭代 for 循环.png](Week1/Day4/IEKF%20迭代%20for%20循环.png)
+
 
 ### 🔹 Week 2
 *（在此记录你的 Week 2 学习进展...）*
