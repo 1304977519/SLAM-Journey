@@ -60,6 +60,33 @@
     *   📂 IEKF 迭代更新函数完整版逐行注释：[update_iterated_dyn_share_modified.cpp](Week1/Day5/update_iterated_dyn_share_modified.cpp)
     *   🎨 手绘 FAST-LIO2 从 LiDAR 数据输入到位姿输出的完整主线流程图：[主线.jpeg](Week1/Day5/主线.jpeg)
 
+#### 🗓️ Day 6
+*   **数学基础**：
+    *   📝 手写推导了 **EKF（扩展卡尔曼滤波）** 公式：[EKF.jpg](Week1/Day6/EKF.jpg)
+    *   📝 手写推导了 **IEKF（迭代扩展卡尔曼滤波）** 公式及迭代逻辑：[IEKF.jpeg](Week1/Day6/IEKF.jpeg)
+    *   📝 分析了 IEKF 为什么需要迭代（线性化误差与重新展开）：[IEKF 为什么需要迭代.jpeg](Week1/Day6/IEKF%20为什么需要迭代.jpeg)
+*   **FAST-LIO2 核心代码精读**：
+    *   📂 点面残差计算核心函数逐行注释：[h_share_model.cpp](Week1/Day6/h_share_model.cpp)
+    *   💻 h_share_model 函数运行截图：[h_share_model.png](Week1/Day6/h_share_model.png)
+    *   📂 iKD-Tree 增量插入函数精读：[Add_Points.cpp](Week1/Day6/Add_Points.cpp)
+    *   📂 iKD-Tree K近邻搜索函数精读：[Search.cpp](Week1/Day6/Search.cpp)
+    *   📂 iKD-Tree 批量删除函数精读：[Delete_Point_Boxes.cpp](Week1/Day6/Delete_Point_Boxes.cpp)
+    *   🎨 更新后的 FAST-LIO2 完整主线流程图：[主线.jpeg](Week1/Day6/主线.jpeg)
+    *   📝 各模块接口调用关系图：[接口用图.jpeg](Week1/Day6/接口用图.jpeg)
+
+#### 🗓️ Day 7
+*   **手写 Python 状态估计器**：
+    *   📂 从零手写 1D 卡尔曼滤波仿真：[1DKF.py](Week1/Day7/KF/1DKF.py)
+    *   📂 从零手写 2D 扩展卡尔曼滤波仿真：[2DKF.py](Week1/Day7/KF/2DKF.py)
+    *   💻 2D EKF 仿真结果（真值/观测/滤波对比图）：[ekf_2d_result.png](Week1/Day7/KF/ekf_2d_result.png)
+*   **KF/EKF/IEKF 对比与总结**：
+    *   📝 KF、EKF、IEKF 三者对比总结图：[KF.EKF.IEKF 对比.jpeg](Week1/Day7/KF.EKF.IEKF%20对比.jpeg)
+*   **FAST-LIO2 完整数据流追踪验证**：
+    *   🎨 一帧 LiDAR 数据从输入到输出位姿的完整生命周期图：[一帧 LiDAR 的完整生命周期.jpeg](Week1/Day7/一帧%20LiDAR%20的完整生命周期.jpeg)
+    *   📝 数据流追踪总结图：[数据流追踪.jpeg](Week1/Day7/数据流追踪.jpeg)
+    *   📝 为什么 IMU 需要积分的原理说明：[为什么 IMU 需要积分.png](Week1/Day7/为什么%20IMU%20需要积分.png)
+    *   💻 用 std::cout 打印验证追踪正确性截图：[打印验证追踪.png](Week1/Day7/打印验证追踪.png)
+
 ### 🔹 Week 2
 *（在此记录你的 Week 2 学习进展...）*
 
