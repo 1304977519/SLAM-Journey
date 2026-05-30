@@ -1,0 +1,63 @@
+listening to /hesai/pandar, /imu/data, /navsat/fix ...
+now play the bag in another terminal. Press Ctrl+C here after rosbag play finishes.
+[GAP] /imu/data: 1777013289.240273 -> 1777013292.100301, dt=2.860029s
+[GAP] /navsat/fix: 1777013289.240330 -> 1777013292.100355, dt=2.860024s
+[GAP] /hesai/pandar: 1777013326.061717 -> 1777013329.061671, dt=2.999954s
+
+================================================================================
+ONLINE ROSBAG QUALITY REPORT
+================================================================================
+
+--------------------------------------------------------------------------------
+topic: /hesai/pandar
+count: 571
+first stamp: 1777013325.361603022
+last  stamp: 1777013385.261837006
+duration   : 59.900 s
+avg rate   : 9.516 Hz
+frame_id counts: {'map': 571}
+dt min/mean/median/max: 0.099900 / 0.105088 / 0.100002 / 2.999954 s
+backward timestamp count: 0
+gap threshold: 0.2 s
+large gap count: 1
+  gap[0]: 1777013326.061717 -> 1777013329.061671, dt=2.999954 s
+PointCloud2 fields: ['x', 'y', 'z', 'intensity', 'timestamp', 'ring']
+point count min/mean/max: 100464 / 115856.0 / 124622
+zero point cloud frames: 0
+
+--------------------------------------------------------------------------------
+topic: /imu/data
+count: 2859
+first stamp: 1777013288.460773706
+last  stamp: 1777013348.440851450
+duration   : 59.980 s
+avg rate   : 47.649 Hz
+frame_id counts: {'/ins': 2859}
+dt min/mean/median/max: 0.000045 / 0.020987 / 0.019987 / 2.860029 s
+backward timestamp count: 0
+gap threshold: 0.05 s
+large gap count: 1
+  gap[0]: 1777013289.240273 -> 1777013292.100301, dt=2.860029 s
+IMU acc norm min/mean/max: 0.867807 / 1.002642 / 1.170073
+IMU gyro norm min/mean/max: 0.001933 / 0.087567 / 0.442778
+
+--------------------------------------------------------------------------------
+topic: /navsat/fix
+count: 2858
+first stamp: 1777013288.460828066
+last  stamp: 1777013348.440788031
+duration   : 59.980 s
+avg rate   : 47.633 Hz
+frame_id counts: {'/ins': 2858}
+dt min/mean/median/max: 0.000072 / 0.020994 / 0.019987 / 2.860024 s
+backward timestamp count: 0
+gap threshold: 0.2 s
+large gap count: 1
+  gap[0]: 1777013289.240330 -> 1777013292.100355, dt=2.860024 s
+
+================================================================================
+TIME COVERAGE
+/hesai/pandar: 1777013325.361603022 -> 1777013385.261837006
+/imu/data: 1777013288.460773706 -> 1777013348.440851450
+/navsat/fix: 1777013288.460828066 -> 1777013348.440788031
+common overlap: 1777013325.361603022 -> 1777013348.440788031, duration 23.079 s

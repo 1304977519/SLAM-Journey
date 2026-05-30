@@ -1,0 +1,22 @@
+path:        /mnt/d/poms/dynamic/POMS-2026-04-24-14-46-29/merged_data.bag
+version:     2.0
+duration:    22:10s (1330s)
+start:       Apr 24 2026 14:47:13.44 (1777013233.44)
+end:         Apr 24 2026 15:09:23.84 (1777014563.84)
+size:        162.8 GB
+messages:    388760
+compression: none [100454/100454 chunks]
+types:       nav_msgs/Odometry           [cd5e73d190d741a2f92e81eda573aca7]
+             sensor_msgs/CompressedImage [8f7a12909da2c9d3332d540a0977563f]
+             sensor_msgs/Imu             [6a62c6daae103f4ff57a132d6f95cec2]
+             sensor_msgs/NavSatFix       [2d3a8cd499b9b4a0249fb98fd05cfa48]
+             sensor_msgs/PointCloud2     [1158d486dd51d683ce2f1be655c3c181]
+topics:      /camera_left/image_raw/compressed        37597 msgs    : sensor_msgs/CompressedImage
+             /camera_left_top/image_raw/compressed    37047 msgs    : sensor_msgs/CompressedImage
+             /camera_right/image_raw/compressed       37420 msgs    : sensor_msgs/CompressedImage
+             /camera_right_top/image_raw/compressed   37558 msgs    : sensor_msgs/CompressedImage
+             /camera_top/image_raw/compressed         37473 msgs    : sensor_msgs/CompressedImage
+             /hesai/pandar                            12604 msgs    : sensor_msgs/PointCloud2    
+             /imu/data                                63019 msgs    : sensor_msgs/Imu            
+             /navsat/fix                              63019 msgs    : sensor_msgs/NavSatFix      
+             /navsat/fix/odom                         63023 msgs    : nav_msgs/Odometry

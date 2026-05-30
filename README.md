@@ -88,7 +88,30 @@
     *   💻 用 std::cout 打印验证追踪正确性截图：[打印验证追踪.png](Week1/Day7/打印验证追踪.png)
 
 ### 🔹 Week 2
-*（在此记录你的 Week 2 学习进展...）*
+
+#### 🗓️ Day 1
+*   **ROSbag 质量检查与分析**：
+    *   📝 详细分析了原始 ROSbag 话题（LiDAR / IMU / GNSS）的发布频率、点云字段、IMU 单位问题以及断帧/时间空洞异常段：[rosbag 质量.txt](Week2/Day1/rosbag%20质量.txt)
+    *   📂 ROSbag 详细质量检测报告：[bag_quality_report.txt](Week2/Day1/fastlio2_results/day2_bag_quality/bag_quality_report.txt) / [rosbag_info.txt](Week2/Day1/fastlio2_results/day2_bag_quality/rosbag_info.txt) / [topic_overview.txt](Week2/Day1/fastlio2_results/day2_bag_quality/topic_overview.txt)
+*   **轨迹评估与真值对比**：
+    *   📊 绘制并输出了 FAST-LIO2 与 GNSS 真值对比图：[真值.png](Week2/Day1/真值.png)
+    *   📊 进行了绝对轨迹误差（APE）评估，输出 APE 误差分布图与 PDF 报告：[APE.png](Week2/Day1/APE.png) / [ape_fastlio2_vs_gnss.pdf](Week2/Day1/ape_fastlio2_vs_gnss.pdf)
+    *   📊 绘制并对比了 XY 维度的轨迹偏差：[traj_compare_xy.pdf](Week2/Day1/traj_compare_xy.pdf)
+    *   📂 包含 FAST-LIO2 及真值 TUM 格式轨迹数据与子轨迹：[day1_raw_traj](Week2/Day1/fastlio2_results/day1_raw_traj)
+*   **FAST-LIO2 核心模型手绘推导/注释**：
+    *   📝 状态向量手绘定义：[状态向量.jpeg](Week2/Day1/状态向量.jpeg)
+    *   📝 IMU 测量模型推导：[IMU 测量模型.jpeg](Week2/Day1/IMU%20测量模型.jpeg)
+    *   📝 状态向量预测步及观测模型：[状态向量预测步观测模型.jpeg](Week2/Day1/状态向量预测步观测模型.jpeg)
+    *   📝 LiDAR 点云去畸变原理与机制手绘：[IMU 预测，一帧 LiDAR 要去畸变.png](Week2/Day1/IMU%20预测，一帧%20LiDAR%20要去畸变.png) / [去畸变.png](Week2/Day1/去畸变.png)
+    *   📝 IEKF 更新与迭代推导手绘：[更新.jpeg](Week2/Day1/更新.jpeg) / [迭代.jpeg](Week2/Day1/迭代.jpeg)
+    *   📝 iKD-Tree 邻近点搜索逻辑手绘：[邻近点.jpeg](Week2/Day1/邻近点.jpeg)
+    *   🎨 IEKF 迭代函数、点面残差计算、iKD-Tree 插入、时间同步与动态点权重插入位置综合分析图：[综合分析图.jpeg](Week2/Day1/IEKF%20迭代函数%20%20点面残差代码行%20%20iKD-Tree%20插入函数%20%20时间同步逻辑%20%20动态点权重预期插入位置.jpeg)
+
+#### 🗓️ Day 2
+*   **IEKF 观测更新手写推导（今天只写了更新，没有写预测，明天写）**：
+    *   📝 详细手写推导了 IEKF 观测更新（Update）步骤 of 数学公式与递推逻辑：[iekf1.jpg](Week2/Day2/iekf1.jpg) 与 [iekf2.jpg](Week2/Day2/iekf2.jpg)
+*   **动态点污染分析**：
+    *   📝 深入剖析了动态点为什么会污染点面残差，以及为什么必须进入 IEKF 观测更新循环而不是仅仅作为后处理解决：[动态点为什么会污染点面残差，为什么要进入 IEKF 观测更新而不是只做后处理.txt](Week2/Day2/动态点为什么会污染点面残差，为什么要进入%20IEKF%20观测更新而不是只做后处理.txt)
 
 ### 🔹 Week 3
 *（在此记录你的 Week 3 学习进展...）*

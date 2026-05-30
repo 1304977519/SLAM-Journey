@@ -19,6 +19,9 @@
 *.csv
 *.txt
 
+# Ignore massive export directories
+**/fastlio2_results/Export/
+
 # Allow README.md explicitly
 !README.md
 
