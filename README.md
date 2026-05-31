@@ -108,10 +108,19 @@
     *   🎨 IEKF 迭代函数、点面残差计算、iKD-Tree 插入、时间同步与动态点权重插入位置综合分析图：[综合分析图.jpeg](Week2/Day1/IEKF%20迭代函数%20%20点面残差代码行%20%20iKD-Tree%20插入函数%20%20时间同步逻辑%20%20动态点权重预期插入位置.jpeg)
 
 #### 🗓️ Day 2
-*   **IEKF 观测更新手写推导（今天只写了更新，没有写预测，明天写）**：
+*   **IEKF 观测更新手写推导**：
     *   📝 详细手写推导了 IEKF 观测更新（Update）步骤 of 数学公式与递推逻辑：[iekf1.jpg](Week2/Day2/iekf1.jpg) 与 [iekf2.jpg](Week2/Day2/iekf2.jpg)
 *   **动态点污染分析**：
     *   📝 深入剖析了动态点为什么会污染点面残差，以及为什么必须进入 IEKF 观测更新循环而不是仅仅作为后处理解决：[动态点为什么会污染点面残差，为什么要进入 IEKF 观测更新而不是只做后处理.txt](Week2/Day2/动态点为什么会污染点面残差，为什么要进入%20IEKF%20观测更新而不是只做后处理.txt)
+
+#### 🗓️ Day 3
+*   **完整的 IEKF 数学推导**：
+    *   📝 整理并补充了包含**预测步（Prediction）与更新步（Update）**的完整 IEKF 闭环数学公式与推导逻辑：[完整的iekf.jpg](Week2/Day3/完整的iekf.jpg)
+*   **iKD-Tree 与点云配准**：
+    *   📝 深入学习并记录了 iKD-Tree 空间数据结构在直接点云配准中的作用机制与对比：[iKD-Tree 和直接点云配准.jpeg](Week2/Day3/iKD-Tree%20和直接点云配准.jpeg)
+    *   💻 iKD-Tree 结构原理/运行结果：[iKD-Tree.png](Week2/Day3/iKD-Tree.png)
+*   **深度学习基础 (PyTorch)**：
+    *   📂 从零实现 PyTorch Tensor 的基本操作、数据集加载（FashionMNIST）、DataLoader 批处理与图像可视化：[tensor_and_data.py](Week2/Day3/pytorch_basics/tensor_and_data.py)
 
 ### 🔹 Week 3
 *（在此记录你的 Week 3 学习进展...）*

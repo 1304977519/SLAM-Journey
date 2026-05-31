@@ -45,6 +45,7 @@ venv/
 pip-log.txt
 pip-delete-this-directory.txt
 .ipynb_checkpoints/
+**/data/
 
 # --- C++ / ROS / CMake Build Artifacts ---
 # Common build output directories
